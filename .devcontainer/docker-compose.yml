@@ -53,4 +53,4 @@ services:
     volumes:
       - ./apache-virtualhost.conf:/etc/apache2/sites-enabled/00-default.conf
       - ./php.ini:/usr/local/etc/php/conf.d/php.ini
-      - ../src:/var/www/html
+      - ../:/var/www/html
